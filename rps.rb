@@ -17,7 +17,6 @@ case
                 puts "Computer chose scissors. You WIN!"
         end
     when user_input == "p"
-        puts "Computer chose PAPER"
         case
             when ai_input == "r"
                 puts "Computer chose rock. You WIN!"
@@ -27,7 +26,6 @@ case
                 puts "Computer chose scissors. You LOSE!"
         end
     when user_input == "s"
-        puts "Computer chose SCISSORS"
         case
             when ai_input == "r"
                 puts "Computer chose rock. You LOSE!"
